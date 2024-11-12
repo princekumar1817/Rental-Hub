@@ -1,0 +1,72 @@
+.footerContact {
+  background-color: #4e73df; /* Changed from #27ae60 to a blue color */
+  padding: 40px 0;
+  color: #f4f5f7; /* Light grey text */
+}
+
+.footerContact h1 {
+  font-size: 40px;
+}
+
+footer {
+  background-color: #343a40; /* Dark gray background */
+  padding: 50px 0;
+  color: #e0e0e0; /* Light gray text */
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 1fr;
+  grid-gap: 20px;
+}
+
+footer img {
+  width: 150px;
+}
+
+footer h2 {
+  font-weight: 500;
+  color: #f8f9fa; /* Slightly lighter than default text */
+}
+
+footer p {
+  color: #b0b0b0; /* Light grey text */
+  margin: 20px 0;
+}
+
+footer input {
+  background-color: #ffffff;
+  padding: 17px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Light border color */
+}
+
+footer h3 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+footer ul {
+  display: block;
+}
+
+footer ul li {
+  display: block;
+  color: #b0b0b0; /* Light grey for links */
+  margin-bottom: 20px;
+}
+
+.legal {
+  text-align: center;
+  padding: 20px;
+  background: #343a40; /* Same dark gray as footer */
+  color: rgba(255, 255, 255, 0.5); /* Faded white */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 800px) {
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
